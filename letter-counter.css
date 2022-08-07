@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(
+         rgb(248, 133, 150),rgb(250, 103, 86))
+    ;
+    font-family: cursive;
+
+}
+.container{
+    background-color: rgb(241, 217, 137);
+    border-radius: 19px;
+    box-shadow: 0 4px 7px;
+    width: 399px;
+    padding: 11px ;
+
+}
+.textarea
+{
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 19px;
+    border-color: solid 3px lightgray;
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+}
+ .container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4px;
+ }
+ .container1 p{
+    font-size: medium;
+    color: rgb(23, 48, 48);
+    font-family: cursive;
+    
+ }
+ .totalchar{
+    color: rgb(95, 78, 201);
+ }
+ .remainingchar{
+    color: brown;
+ }
+ 

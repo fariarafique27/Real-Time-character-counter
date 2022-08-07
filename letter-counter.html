@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Character Counter</title>
+    <link rel="stylesheet" href="letter-counter.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>
+            Real-time Character Counter
+        </h2>
+        <textarea class="textarea"  id="textarea" placeholder="Please Enter Text Here" maxlength="50"></textarea>
+        <div class="container1">
+          
+            <p>
+                Total Character:<span class="totalchar" id="totalchar">
+                    00
+                </span>
+
+            </p>
+            <p>  Remaining Character:
+                <span class="remainingchar" id="remainingchar">
+                  00
+                </span>
+            </p>
+            <script src="letter-counter.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
